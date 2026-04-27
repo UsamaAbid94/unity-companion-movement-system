@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4732787920f6edf49b70cf926a00555d, type: 3}
+  m_Name: CompanionHatMan
+  m_EditorClassIdentifier: Assembly-CSharp::Companion.Gameplay.CompanionData
+  _companionName: Player 1
+  _companionDescription: This companion is yellow companion with hat.
+  _companionPrefab: {fileID: 5090587081827196812, guid: 6285cf03d162d9b4d86e7376b1040cc8, type: 3}
+  _companionMaxHealth: 100
+  _moveSpeed: 10
+  _dashSpeed: 30
+  _dashCoolDown: 1
+  _dashingTime: 0.2
+  _canDash: 1
+  _isDashing: 0
+  _damagePerSecond: 0
+  _currentLevel: 1
+  _currentExp: 0
+  _maxLevel: 99
+  _currentTier: 0
+  _maxTier: 10
+  _tierStep: 0.2
+  _detectionRange: 10
